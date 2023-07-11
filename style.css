@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1300px;
+  margin: 128px auto;
+}
+
+h2{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+button{  
+  color: #FFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #E55473;
+  border: none;
+  padding: 20px 43px;
+}
+/* Header   */
+header{
+  background: rgba(229, 84, 115, 0.10);
+  width: 100%; 
+}
+header .container{
+  max-width: 1300px;
+  margin: 0 auto 128px;
+}
+.header{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);  
+  align-items: center;
+  gap: 20px;
+}
+.header .header-img img{
+  width: 100%;
+}
+.header .header-title h1{
+  color: #272727;
+  font-family: Lato;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.header .header-title p{
+  color: rgba(39, 39, 39, 0.60);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 32px 0;
+}
+.header-img{
+  padding-top: 50px;
+}
+
+/* feature section */
+.feature .feature-head p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 48px;
+}
+.feature-img{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+.feature-img .images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-1{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 50px 0;
+}
+.img-2{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 30px 50px;
+}
+.img-3{
+  border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+padding: 67px 50px 0;
+}
+.images a{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  padding-top: 32px;
+}
+
+/* support  */
+.support-main{
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 87px 175px;
+}
+.support-help{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support-help p{
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* hot deal */
+.hot-deal{
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 30px 0;
+}
+.hot-deal-head{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+}
+.hot-deal-head p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0 52px;
+}
+.hot-deal-head-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hot-deal span{
+  color: #E55473;
+}
+/* instagram */
+
+.instagram-img{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+}
+.instagram-head p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 48px;
+}
+.instagram-img .instagram-pic img{
+  width: 100%;
+}
+
+/* hot deal */
+.latest-deal{
+  background-image: url(images/Rectangle\ 9.png);
+  height: 449px;
+  background-size:  cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.latest-deal-head p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin:16px 0 48px;
+}
+.latest-deal-head input{
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 22px;
+    border: none;
+    width: 500px;
+    margin-right: 16px;
+}
+
+/* footer */
+footer{
+    background: #111010;
+    text-align: center;
+    padding: 128px 0;
+  }
+  footer h3{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  footer span{
+    color: #FFF;
+  }
+  footer p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px;
+  }
+  footer h4{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
